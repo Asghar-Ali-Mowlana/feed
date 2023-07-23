@@ -13,32 +13,32 @@ class _FeedPageState extends State<FeedPage> {
   List<Person> persons = [
     Person(
         name: 'Bill Will',
-        image: 'img/pic-1.jpg',
+        image: 'assets/img/pic-1.jpg',
         job: 'Software Developer',
         clock: '3:40'),
     Person(
-        name: 'Andy Smith',
-        image: 'img/pic-2.jpg',
+        name: 'John Smith',
+        image: 'assets/img/pic-2.jpg',
         job: 'UI Designer',
         clock: '5:50'),
     Person(
-        name: 'John Smith',
-        image: 'img/pic-3.jpg',
+        name: 'Andy Smith',
+        image: 'assets/img/pic-3.jpg',
         job: 'Software Tester',
         clock: '9:50'),
     Person(
         name: 'Julie Robert',
-        image: 'img/pic-4.jpg',
+        image: 'assets/img/pic-4.jpg',
         job: 'Software Tester',
         clock: '9:20'),
     Person(
         name: 'Cloe Sugar',
-        image: 'img/pic-5.jpg',
+        image: 'assets/img/pic-5.jpg',
         job: 'Software Tester',
         clock: '10:40'),
     Person(
         name: 'Colie Story',
-        image: 'img/pic-6.jpg',
+        image: 'assets/img/pic-6.jpg',
         job: 'Software Tester',
         clock: '4:30'),
   ];
@@ -62,7 +62,7 @@ class _FeedPageState extends State<FeedPage> {
         ],
       ),
       body: Container(
-          padding: const EdgeInsets.fromLTRB(18, 0, 18, 18),
+          padding: const EdgeInsets.fromLTRB(18, 10, 18, 18),
           child: SingleChildScrollView(
             child: Column(
               children: persons.map((person) {
