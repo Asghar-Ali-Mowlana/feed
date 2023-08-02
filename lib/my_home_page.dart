@@ -1,3 +1,4 @@
+import 'package:feed/about.dart';
 import 'package:feed/feed.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.white,
-      body: FeedPage(),
+      body: AboutPage(),
     );
   }
 }

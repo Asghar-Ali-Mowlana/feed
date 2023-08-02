@@ -1,3 +1,4 @@
+import 'package:feed/about.dart';
 import 'package:feed/people_model.dart';
 import 'package:feed/person_detail_card.dart';
 import 'package:flutter/material.dart';
